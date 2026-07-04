@@ -85,5 +85,12 @@ jobs:
           echo $IP
           docker ps 
           docker run --rm alpine/curl http://$IP:5173/ | grep github-actions
+
+      - name: Docker Push
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          push: true
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/react-app:${{ github.sha }}
           
               
