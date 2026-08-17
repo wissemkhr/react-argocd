@@ -16,10 +16,8 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Welcome to Gitlab CI!</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
+          <h1>Welcome !</h1>
+          <p>v1</p>
         </div>
         <button
           type="button"

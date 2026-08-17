@@ -5,10 +5,10 @@ import '@testing-library/jest-dom/vitest';
 import App from '../../src/App';
 
 describe('App', () => {
-    it('should render welcome to Gitlab CI', () => {
+    it('should render Welcome !', () => {
         render(<App/>);
 
-        const heading = screen.getByText("Welcome to Gitlab CI!");
+        const heading = screen.getByText("Welcome !");
         expect(heading).toBeInTheDocument();
 
         const button = screen.getByRole('button')
