@@ -17,7 +17,7 @@ function App() {
         </div>
         <div>
           <h1>Welcome !</h1>
-          <p>v1</p>
+          <p>v2</p>
         </div>
         <button
           type="button"
